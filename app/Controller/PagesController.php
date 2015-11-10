@@ -809,4 +809,12 @@ class PagesController extends AppController {
 	public function rules(){
 		
 	}
+	
+	public function playerlist(){
+		
+	}
+	
+	public function player_inventory(){
+		
+	}
 }

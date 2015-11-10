@@ -15,7 +15,7 @@ Cette version du CMS apporte quelques nouveautés au cms :
 
 A venir :
 <ul>
-  <li>Des actions pour les admins depuis la liste des joeurs connectés</li>
+  <li>Des actions pour les admins depuis la liste des joueurs connectés</li>
 </ul>
 
 Si vous souhaitez voir d'autres mods, n'hésitez pas à proposer.
