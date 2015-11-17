@@ -44,6 +44,11 @@
                             </a>
                             <br>
                         {% endif %}
+                        <font color="#555"><i class="fa fa-angle-double-right"></i></font>
+                        <a href="{{ _this.Html.url({'controller': '/p/player_inventory'}) }}">
+                            Accéder à mon personnage
+                        </a>
+                        <br>
                         {% if use_store == 1 %}
                             <font color="#555"><i class="fa fa-angle-double-right"></i></font>
                             <a href="{{ _this.Html.url({'controller': 'shops', 'action': 'reload'}) }}">
@@ -102,6 +107,8 @@
 						</div>
 						<center>
 							<i class="fa fa-users"></i> Joueurs connectés : <span class="open-sans">{{ players }}/{{ max_players }}</span>
+							<br>							
+							<a href="{{ _this.Html.url({'controller': '/p/playerlist'}) }}"><i class="fa fa-reorder"></i> Afficher la liste</a>
 						</center>
 	            {% else %}
 					<i class="fa fa-user"></i> Joueurs connectés : <span class="open-sans">{{ players }}/{{ max_players }}</span><br>

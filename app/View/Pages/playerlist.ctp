@@ -7,11 +7,12 @@
         <div class="col-md-9">
 			<?php $pl = $api->call('players.online.names')[0]['success']; ?>
 			<?php $total = count($pl); ?>
+				
+				<div class="panel panel-default">
 				<?php
 				if ($pl == null) { ?>
-					<div class="alert alert-danger"><i class="fa fa-exclamation-triangle fa-lg"></i> &nbsp;Le joueur est hors-ligne !</div> 
-				<?php } else { ?>
-					<div class="panel panel-default">					
+						<div class="alert alert-danger"><i class="fa fa-exclamation-triangle fa-lg"></i> &nbsp;Il n'y a pas de joueurs connectés !</div> 
+				<?php } else { ?>					
 						<table class="table">
 							<thead>
 								<th>
@@ -27,7 +28,7 @@
 							<tbody>
 							<?php
 
-								for ($i=0; $i<=$total-1; $i++) 
+								for ($i=0; $i<$total; $i++) 
 								{ ?>
 									<tr>
 										<?php

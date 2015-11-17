@@ -26,7 +26,7 @@
         	if ($role > 0) { ?>
         		<h1><i class="fa fa-terminal"></i>&nbsp;Administration</h1>
 	        	<div>
-	        		<form method="GET" action="<?php echo $this->Html->url('/pages/player_inventory'); ?>">
+	        		<form method="GET" action="<?php echo $this->Html->url('/p/player_inventory'); ?>">
 	        			<p>
 	        				<label>Pseudo d'un joueur connecté : &nbsp;</label><input type="text" name="player" />
 	        				<input type="submit" value="Vérifier" />
