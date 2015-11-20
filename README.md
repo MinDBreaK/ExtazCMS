@@ -19,3 +19,5 @@ A venir :
 </ul>
 
 Si vous souhaitez voir d'autres mods, n'hésitez pas à proposer.
+
+J'accepte toute contribution à condition qu'elle soit utile et fiable.
