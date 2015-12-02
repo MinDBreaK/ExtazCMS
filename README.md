@@ -1,7 +1,8 @@
 # ExtazCMS-Mod
 ExtazCMS, avec différentes modifications. En principe, le CMS est à jour.  Version actuelle : 1.10#6
 
-Le CMS est disponible à l'adresse suivante : http://www.bukkit.fr/topic/18919-extazcms-innovant-mises-à-jour-régulières-gratuit
+Le CMS est disponible à l'adresse suivante : http://extaz-cms.fr
+(Anciennement :  http://www.bukkit.fr/topic/18919-extazcms-innovant-mises-à-jour-régulières-gratuit)
 
 Je ne suis PAS le propriétaire de ce CMS. Si vous souhaitez le télécharger, vous DEVEZ utiliser le lien du topic sur le forum.
 
